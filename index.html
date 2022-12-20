@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="adminPanel">
+            <h2>Admin Panel</h2>
+            <ul>
+                <li><a href="#0">Options</a></li>
+                <li><a href="#0">Static Pages</a></li>
+                <li><a href="#0">Posts</a></li>
+                <li><a href="#0">Modules</a></li>
+                <li><a href="#0">Navigation Links</a></li>
+                <li><a href="#0">Mailing List</a></li>
+                <hr>
+                <li><a href="#0">Themes</a></li>
+            </ul>
+            <p><b>Logout</b></p>
+        </div>
+        <div class="navigationLinks">
+            <h2> Navigation Links</h2>
+            <center>
+                <table>
+                    <tr>
+                        <th>URL</th>
+                        <th>NAME</th>
+                        <th>EDIT</th>
+                        <th>MOVE</th>
+                        <th>VISIBLE</th>
+                        <th>DELETE</th>
+                    </tr>
+                    <tr>
+                        <td>/</td>
+                        <td>Home</td>
+                        <td><button class="edit-btn">Edit</button></td>
+                        <td><button class="arrow-btn edit-btn" style="margin-left:33px">▼</button></td>
+                        <td><button class="visible-btn edit-btn">Visible</button></td>
+                        <td><button class="cross-btn">X</button></td>
+                    </tr>
+                    <tr>
+                        <td>/posts</td>
+                        <td>Posts</td>
+                        <td><button class="edit-btn">Edit</button></td>
+                        <td><button class="arrow-btn edit-btn">▲</button><button class="arrow-btn edit-btn">▼</button></td>
+                        <td><button class="visible-btn edit-btn">Visible</button></td>
+                        <td><button class="cross-btn">X</button></td>
+                    </tr>
+                    <tr>
+                        <td>/contacts</td>
+                        <td>Contacts</td>
+                        <td><button class="edit-btn">Edit</button></td>
+                        <td><button class="arrow-btn edit-btn">▲</button></td>
+                        <td><button class="visible-btn edit-btn">Visible</button></td>
+                        <td><button class="cross-btn">X</button></td>
+                    </tr>
+                </table>
+            </center>
+            
+            <div class="quickLinks">
+                <h2>Quick Links</h2>
+                <button class="quickLinks__btn">Link Static Page</button>
+                <button class="quickLinks__btn">Link Post</button>
+                <button class="quickLinks__btn">Link Modules</button>
+            </div>
+            <div class="newLinks">
+                <h2>Add New Links</h2>
+                <input type="text" placeholder="URL"/>
+                <input type="text" placeholder="Name"/>
+                <button class="newLinks__btn">Add</button>
+            </div>
+            <div class="options">
+                <h2>Options</h2>
+                <div class="options__space">
+                    <span><b>Navigation Link spacer</b></span>
+                    <select>
+                        <option>Wider Space</option>
+                    </select>
+                    <p>Set the Spacing between the navigation links</p>
+                </div>
+                <hr>
+                <div class="options__btn">
+                    <button class="quickLinks__btn">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
