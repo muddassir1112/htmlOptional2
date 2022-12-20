@@ -1,148 +1,148 @@
-.container{
-    display: flex;
-    justify-content: space-between;
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 /*---------------------*/
-.adminPanel{
-    width: 20%;
-    height: 100vh;
-    background-color: #cce3de;
+.adminPanel {
+  background-color: #cce3de;
+  height: 100vh;
+  width: 20%;
 }
-.adminPanel>h2{
-    text-align: center;
+
+.adminPanel > h2 {
+  text-align: center;
 }
-.adminPanel>p{
-    margin-top: 40px;
-    text-align: center;
+.adminPanel > p {
+  margin-top: 40px;
+  text-align: center;
 }
 .adminPanel ul {
-    list-style-type: none;
-    /* background-color: #bcd3ce; */
+  list-style-type: none;
 }
 
 .adminPanel ul li {
-    background-color: #bcd3ce;
-    margin-left: -40px;
-    margin-bottom: 5%;
-    border: 1px solid #acc8bb;
-    padding: 15px 0px 15px 20px;
+  background-color: #bcd3ce;
+  border: 1px solid #acc8bb;
+  margin-left: -40px;
+  margin-bottom: 5%;
+  padding: 15px 0px 15px 20px;
 }
 .adminPanel ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }
-hr{
-    margin-left: -40px;
+hr {
+  margin-left: -40px;
 }
 /*---------------------*/
-.navigationLinks{
-    width: 75%;
-    
+.navigationLinks {
+  width: 75%;
 }
 .navigationLinks > h2 {
-    text-align: center;
+  text-align: center;
 }
-.navigationLinks table{
-    border: 1px solid #cce3de;
+.navigationLinks table {
+  border: 1px solid #cce3de;
 }
-table{
-    width: 100%;
+table {
+  width: 100%;
 }
-table th{
-    background-color: #cce3de;
-    padding: 10px 45px 10px 45px;
+table th {
+  background-color: #cce3de;
+  padding: 10px 45px 10px 45px;
 }
-table, th, td {
-    border: 1px solid #bcd3c6;
-    border-collapse: collapse;
-    font-size: 18px;
-  }
+table,
+th,
+td {
+  border: 1px solid #bcd3c6;
+  border-collapse: collapse;
+  font-size: 18px;
+}
 
-td .edit-btn{
-    border: 1px solid #cce3de;
-    background-color: #a4c3b2;
-    border-radius:5px;
-    font-weight: bold;
-    font-size: 15px;
-    padding:2px 18px 2px 18px;
-    
+td .edit-btn {
+  border: 1px solid #cce3de;
+  background-color: #a4c3b2;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 2px 18px 2px 18px;
 }
-td .arrow-btn{
-    padding:3px 8px 3px 8px;
+td .arrow-btn {
+  padding: 3px 8px 3px 8px;
 }
-td .visible-btn{
-background-color: #00cb00;
-border: 1px solid #4bc34b;
+td .visible-btn {
+  background-color: #00cb00;
+  border: 1px solid #4bc34b;
 }
 td .cross-btn {
-    background-color: #cb0000;
-    border: 1px solid #d48585;
-    border-radius: 5px;
+  background-color: #cb0000;
+  border: 1px solid #d48585;
+  border-radius: 5px;
 }
 
 /*---------------------*/
-.quickLinks{
-    text-align: center;
-    margin-top: 4%;
+.quickLinks {
+  text-align: center;
+  margin-top: 4%;
 }
 
 @media only screen and (max-width: 600px) {
-    .quickLinks{
-        text-align: center;
-    }
-    .quickLinks__btn{
-        display: block;
-        margin-bottom: 10px;
-    }
-    .adminPanel{
-        overflow: hidden;
-    }
-    table{
-        overflow-x:auto;
-    }
-  }
-
-.quickLinks__btn{
-    background-color: #a4c3b2;
-    border: 1px solid #9bb4a9;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 8px;
-    padding: 5px 45px 5px 45px;
-}
-
-.newLinks{
+  .quickLinks {
     text-align: center;
-    margin-top: 4%;
+  }
+  .quickLinks__btn {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .adminPanel {
+    overflow: hidden;
+  }
+  table {
+    overflow-x: auto;
+  }
 }
-.newLinks input{
-    padding: 6px 0px 6px 0px;
-    border-radius: 5px;
-    width: 30%;
-    border-style: solid;
+
+.quickLinks__btn {
+  background-color: #a4c3b2;
+  border: 1px solid #9bb4a9;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 8px;
+  padding: 5px 45px 5px 45px;
 }
-.newLinks__btn{
-    background-color: #a4c3b2;
-    border: 1px solid #87a698;
-    border-radius: 5px;
-    font-weight: bold;
-    padding: 6px 45px 6px 45px;
+
+.newLinks {
+  margin-top: 4%;
+  text-align: center;
+}
+.newLinks input {
+  border-radius: 5px;
+  border-style: solid;
+  padding: 6px 0px 6px 0px;
+  width: 30%;
+}
+.newLinks__btn {
+  background-color: #a4c3b2;
+  border: 1px solid #87a698;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 6px 45px 6px 45px;
 }
 
 /*---------------------*/
-.options{
-    margin-top: 4%;
+.options {
+  margin-top: 4%;
 }
-.options>h2{
-    text-align: center;
+.options > h2 {
+  text-align: center;
 }
 .options__space select {
-    border-radius: 3px;
-    padding: 5px 30px 5px 0px;
-    margin-left: 1%;
+  border-radius: 3px;
+  margin-left: 1%;
+  padding: 5px 30px 5px 0px;
 }
-.options__btn{
-    text-align: center;
+.options__btn {
+  text-align: center;
 }
